@@ -24,7 +24,6 @@ div.gallery{
 
 }
 .hidden a:focus, a:visited, a:active{
-	visibility: hidden;
     display: none;
     color: black;
 }
