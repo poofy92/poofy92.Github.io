@@ -23,7 +23,10 @@ div.gallery{
 	filter: grayscale(0);
 	transform: scale(1.1);
 }
-.hidden{
+.hidden a:visited{
+	color: black;
+}
+.hidden a:active{
 	color: black;
 }
 
