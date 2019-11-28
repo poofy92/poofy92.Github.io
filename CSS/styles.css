@@ -23,9 +23,7 @@ div.gallery{
 	transform: scale(1.1);
 
 }
-a{
-	visibility: hidden;
-	display: none;
+a:focus, a:visited, a:active{
 	color: black;
 }
 
