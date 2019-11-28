@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" href="/styles.css">
+    <title>Poofy!</title>
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+    <link rel="stylesheet" type="text/css" href="CSS/lightbox.min.css">
+    <script type="text/javascript" src="JS/lightbox-plus-jquery.min.js">
+    </script>
 	</head>
 <body>
 <h1>Work in progress</h1>
 <br/>
-<img src="images/doggo.jpg" widht="400" height="400"></img>
-  <br />
-  <img src="images/furrybaby.jpg" widht="400" height="400"></img>
-  <br />
-  <img src="images/wolf.jpg" widht="400" height="400"></img>
-  <br />
-</body>
+<div class="gallery">
+  <a href="images/wolf.jpg" data-lightbox="mygallery">
+  <img src="images/small_wolf.jpg">
+</a>
+<a href="images/doggo.jpg" data-lightbox="mygallery">
+  <img src="images/small_doggo.jpg">
+</a>
+<a href="images/furrybaby.jpg" data-lightbox="mygallery">
+  <img src="images/small_furrybaby.jpg">
+</a>
+ 
+</div>
+  </body>
 </html>
