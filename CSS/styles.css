@@ -1,14 +1,62 @@
 h1{
 	text-align: center;
-	color: white;
+	color: black;
+}
+ul{
+	list-style-type: none;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+	text-align: center;
+}
+li{
+	display: inline-block;
 }
 body{
-	background-color: black;
+	background-color: #96c8fb;
+	background-image: linear-gradient(315deg, #96c8fb 0%, #ddbdfc 74%);}
+p{
+	color: black;
+	text-align: center;
+}
+#soon{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.container{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 50px;
+	padding: 10px;
+}
+.item1{
+	grid-column-start: 1;
+	grid-column-end: 4;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	border: 5px solid black;
+}
+.item2{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	border: 5px solid black;
+}
+.item3{
+	grid-column-start: 3;
+	grid-column-end: 4;
+	border: 5px solid black;
 }
 #link{
 	text-align: center;
 	display: block;
-	color: white;
+	color: black;
+	padding: 20px;
+	border: 2px solid black;
+	background: #ddbdfc;
+	margin-bottom: 50px;
 }
 div.gallery{
 	margin: 10px 50px;
@@ -24,13 +72,12 @@ div.gallery{
 	transform: scale(1.1);
 }
 .hidden a:visited{
-	color: black;
+	color: #96c8fb;
 }
 .hidden a:active{
-	color: black;
+	color: #96c8fb;
 }
 footer{
-	position: fixed;
   	left: 0;
   	bottom: 0;
   	width: 100%;
