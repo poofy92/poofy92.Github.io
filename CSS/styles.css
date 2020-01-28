@@ -22,8 +22,9 @@ body{
   	margin-left: auto;
   	margin-right: auto;
 }
-header{
+.header{
 	text-align: center;
+	width: 100%;
 	margin-left: 0px;
 	margin-right: 0px;
 }
@@ -59,7 +60,7 @@ div.gallery{
 .hidden a:active{
 	color: #96c8fb;
 }
-footer{
+.footer{
   	bottom: 0;
   	width: 100%;
   	text-align: center;
