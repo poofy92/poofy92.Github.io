@@ -16,7 +16,7 @@ body{
 	background-color: #96c8fb;
 	background-image: linear-gradient(315deg, #96c8fb 0%, #ddbdfc 74%);
 }
-.center img{
+.center{
 	border: solid black 10px;
 	display: block;
   	margin-left: auto;
